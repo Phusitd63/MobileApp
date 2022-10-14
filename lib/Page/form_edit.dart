@@ -61,11 +61,14 @@ class _FormEditScreenState extends State<FormEditScreen> {
                       },
                       decoration: const InputDecoration(
                           enabledBorder: UnderlineInputBorder(
-                              borderSide: BorderSide(color: Colors.blue)),
+                              borderSide: BorderSide(
+                                  color: Color.fromARGB(255, 6, 11, 15))),
                           focusedBorder: UnderlineInputBorder(
-                              borderSide: BorderSide(color: Colors.blue)),
+                              borderSide: BorderSide(
+                                  color: Color.fromARGB(255, 8, 9, 10))),
                           labelText: "Code Name",
-                          labelStyle: TextStyle(color: Colors.blue)),
+                          labelStyle:
+                              TextStyle(color: Color.fromARGB(255, 5, 14, 21))),
                       autofocus: true,
                     ),
                     TextFormField(
@@ -78,11 +81,14 @@ class _FormEditScreenState extends State<FormEditScreen> {
                       },
                       decoration: const InputDecoration(
                           enabledBorder: UnderlineInputBorder(
-                              borderSide: BorderSide(color: Colors.blue)),
+                              borderSide: BorderSide(
+                                  color: Color.fromARGB(255, 8, 9, 9))),
                           focusedBorder: UnderlineInputBorder(
-                              borderSide: BorderSide(color: Colors.blue)),
+                              borderSide: BorderSide(
+                                  color: Color.fromARGB(255, 21, 29, 36))),
                           labelText: "Detail",
-                          labelStyle: TextStyle(color: Colors.blue)),
+                          labelStyle: TextStyle(
+                              color: Color.fromARGB(255, 14, 16, 18))),
                       keyboardType: TextInputType.text,
                     ),
                     TextFormField(
@@ -95,11 +101,14 @@ class _FormEditScreenState extends State<FormEditScreen> {
                       },
                       decoration: const InputDecoration(
                           enabledBorder: UnderlineInputBorder(
-                              borderSide: BorderSide(color: Colors.blue)),
+                              borderSide: BorderSide(
+                                  color: Color.fromARGB(255, 18, 20, 22))),
                           focusedBorder: UnderlineInputBorder(
-                              borderSide: BorderSide(color: Colors.blue)),
+                              borderSide: BorderSide(
+                                  color: Color.fromARGB(255, 18, 20, 21))),
                           labelText: "Code Number ",
-                          labelStyle: TextStyle(color: Colors.blue)),
+                          labelStyle: TextStyle(
+                              color: Color.fromARGB(255, 22, 23, 24))),
                       keyboardType: TextInputType.text,
                     ),
                     TextFormField(
@@ -112,11 +121,14 @@ class _FormEditScreenState extends State<FormEditScreen> {
                       },
                       decoration: const InputDecoration(
                           enabledBorder: UnderlineInputBorder(
-                              borderSide: BorderSide(color: Colors.blue)),
+                              borderSide: BorderSide(
+                                  color: Color.fromARGB(255, 7, 8, 8))),
                           focusedBorder: UnderlineInputBorder(
-                              borderSide: BorderSide(color: Colors.blue)),
+                              borderSide: BorderSide(
+                                  color: Color.fromARGB(255, 10, 10, 10))),
                           labelText: "Deal Date",
-                          labelStyle: TextStyle(color: Colors.blue)),
+                          labelStyle: TextStyle(
+                              color: Color.fromARGB(255, 14, 14, 15))),
                       keyboardType: TextInputType.text,
                     ),
                     ElevatedButton(
